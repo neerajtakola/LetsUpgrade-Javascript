@@ -1,0 +1,49 @@
+Q.1
+let str="Neeraj";
+let a="j";
+if(str.includes(a)){
+  console.log("Found " + a);
+}
+else {
+console.log("Not Found " + a);
+}
+a="k";
+if(str.includes(a)){
+  console.log("Found " + a);
+}
+else {
+console.log("Not Found " + a);
+}
+
+
+Q.2
+let mins=10;
+let secs=mins*60;
+console.log(secs+" seconds are in "+ mins + " minutes");
+
+
+Q.3
+let a =["Neeraj","LetsUpgrade","Java","Script"]
+let ele="Java";
+for(let i=0;i<=3;i++){
+  if(a[i]==ele){
+    let j=i+1;
+    console.log("Element found at :"+ j +" position");
+  }
+}
+
+
+Q.4
+let a =["Neeraj","LetsUpgrade","Java","Script"]
+for(let i=0;i<=3;i++){
+  if(a[i].includes('a')){
+    console.log(a[i]);
+  }
+}
+
+
+Q.5 
+let a =[1,2,3,4]
+for(let i=3;i>=0;i--){
+  console.log(a[i])
+}
